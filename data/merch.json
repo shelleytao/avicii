@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Tim T-Shirt",
+    "type": "tops",
+    "price": 30,
+    "image": "./assets/AviciiTimT-Shirt.png",
+    "path": ""
+  },
+  {
+    "id": "2",
+    "name": "Tim Hoodie",
+    "type": "tops",
+    "price": 55,
+    "image": "./assets/AviciiTimHoodie.png",
+    "path": ""
+  },
+  {
+    "id": "3",
+    "name": "Tim Hoodie",
+    "type": "tops",
+    "price": 55,
+    "image": "./assets/AviciiTimHoodie.png",
+    "path": ""
+  }
+]
+
+
+

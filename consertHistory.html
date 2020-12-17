@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/history.css" />
+    <title>Concert History</title>
+</head>
+<body>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div>
+                <nav class="navbar sticky-top navbar-expand-lg bg-transparent">
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="./assets/Global Nav Logo.svg" width="82.54" height="19" alt="" loading="lazy" />
+                    </a>
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button> -->
+                    <div class="d-flex flex-row-reverse collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./discography.html">Discography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./media.html">Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./merch.html">Merch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./consertHistory.html">Concert History</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div id="content" class="container">
+            <div class="row">
+                <h1>Convert Histroy</h1>
+            </div>
+            <div class="row">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Venue</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">WTB</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row justify-content-center">
+                <button id="show_more_button" type="button" class="btn">SHOW MORE</button>
+            </div>
+        </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./script/showMoreConcerts.js">
+</script>
+</html>
