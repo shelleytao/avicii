@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // to read and add more album items from json file
     var moreAlbumItems = [];
     $.getJSON('./data/additional_album.json', function(data) {
         for (var i = 0, len = data.length; i < len; i++) {
@@ -21,6 +22,7 @@ $(document).ready(function () {
         $("#show_more_album_button").prop("disabled",true);
     });
 
+    // to read and add more single items from json file
     var moreSingleItems = [];
     $.getJSON('./data/additional_single.json', function(data) {
         for (var i = 0, len = data.length; i < len; i++) {
@@ -43,6 +45,7 @@ $(document).ready(function () {
         $("#show_more_single_button").prop("disabled",true);
     });
 
+    // to switch between the selected/unselected status
     $("#single-unselected").click(function () {
         $("#single-unselected").prop("id","single-selected");
         $("#album-selected").prop("id","album-unselected");
@@ -56,4 +59,4 @@ $(document).ready(function () {
         $("#album-items").css("display","unset");
         $("#single-items").css("display","none");
     })
-})
+});

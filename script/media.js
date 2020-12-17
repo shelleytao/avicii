@@ -50,4 +50,4 @@ $(document).ready(function () {
         $("#photo-items").css("display","unset");
         $("#video-items").css("display","none");
     })
-})();
+});

@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    var limit = 15;
+    // show 11 items first, then read and add more from json file
+    var limit = 11;
     var initalItems= [];
     var restItems = [];
     var restIndex = 0;
@@ -19,7 +20,7 @@ $(document).ready(function () {
             row += '<td>' + item.Time + '</td>';
             row += '<td>' + item.Venue + '</td>';
             row += '<td>' + item.Location + '</td>';
-            row += '<td>' + item.WTB + '</td>';
+            row += '<td>' + '<a href="' + item.WTB + '" >' + 'Link' +'</a>' + '</td>';
             row += '</tr>';
         });
         $('tbody').append(row)
@@ -33,11 +34,11 @@ $(document).ready(function () {
                 row += '<td>' + item.Time + '</td>';
                 row += '<td>' + item.Venue + '</td>';
                 row += '<td>' + item.Location + '</td>';
-                row += '<td>' + item.WTB + '</td>';
+                row += '<td>' + '<a href="' + item.WTB + '" >' + 'Link' +'</a>' + '</td>';
                 row += '</tr>';
                 
             });
             $('tbody').append(row);
             $("#show_more_button").prop("disabled",true);
         });
-})();
+});

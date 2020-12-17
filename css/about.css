@@ -15,7 +15,7 @@
   font-family: 'Lato', sans-serif;
   color: white;
   background-color: transparent;
-  border-bottom: .15rem solid transparent;
+  border-bottom: .1rem solid transparent;
 }
 
 .navbar .nav-link:hover, .navbar .nav-link:focus {
@@ -41,6 +41,7 @@ h1 {
     font-size: 64pt;
     font-weight: 700;
     font-family: 'Merriweather', serif;
+    padding-bottom: 1rem;
 }
 p{
     color: white;
@@ -48,13 +49,15 @@ p{
 }
 .pagetitle {
     padding-top: 6rem;
+    padding-right: 2rem;
 }
 
 h4 {
   color: rgb(231, 222, 31);
+  font-family: 'Merriweather', serif;
 }
 #detail {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .list-group-item {
   padding-left: 0px;
@@ -67,4 +70,16 @@ h4 {
 
 #detail p {
   font-weight: lighter;
+}
+
+.footer {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
 }
